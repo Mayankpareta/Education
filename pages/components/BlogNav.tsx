@@ -95,7 +95,8 @@ const Dropdown = ({ items, title, linktext, link }: {title?: string, linktext?: 
         {items.map((item, i) => (
           <div key={i} className="py-1 font-medium mt-2 text-base text-black/80">
             <Link
-              href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
+{/*               href={`/${item.toLowerCase().replace(/\s+/g, "-")}`} */}
+            href={'#'}
               key={i}
               className="block pt-1 hover:text-black/100 "
             >
